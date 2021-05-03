@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ifelse</title>
+</head>
+<script>
+    var per = 245;
+    var a = "You are in Merit.";
+    var b = "1st Division";
+    var c = "2nd Division";
+    var d = "3rd Division";
+    var e = "You are Fail.";
+    if (per >= 80 && per <= 100) {
+        document.write(a);
+    } else if (per >= 60 && per <= 79) {
+        document.write(b);
+    } else if (per >= 45 && per <= 59) {
+        document.write(c);
+    } else if (per >= 33 && per <= 44)
+        document.write(d);
+    else if (per < 33) {
+        document.write(e);
+    }else{
+        document.write("Please enter a valid number.")
+    }
+</script>
+
+<body>
+
+</body>
+
+</html>
