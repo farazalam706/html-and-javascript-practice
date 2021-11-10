@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = ["Faraz",
+            "Alam", "Ammad", "Chand", "Neha"
+        ]
+        // const persons = [{
+        //     id: 1,
+        //     name
+        // }]
+        var b = a.slice(- 3, -2);//Here it will only print Ammad as -ve number starts from left, and 1st index will consider but last won't.
+        document.write(b+"<br>");
+        a.splice(1, 3, "Hassan");
+        document.write(a);
+
+    </script>
+</body>
+
+</html>

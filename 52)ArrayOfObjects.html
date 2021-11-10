@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = [
+            { name: "Faraz", age: 22 },
+            { name: "Ammad", age: 21 },
+            { name: "Mannan", age: 20 },
+        ];
+        // console.log(a);
+        // for (var i = 0; i < a.length; i++) {
+        //     console.log(a[i].age+ a[i].name);
+        // }
+        for (var i = 0; i < a.length; i++) { //Nested loop will apply on MUltidimensional Array
+            for (var j = i; j < a.length; j++) {
+               console.log(a[j]);
+            }
+        }
+    </script>
+</body>
+
+</html>
